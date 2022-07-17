@@ -1,20 +1,39 @@
-Contribution: 2022-01-22 20:00
 
-Contribution: 2022-01-22 20:01
+A complete NFT website with Minting and Gallery features. Based off of the ExoBits website: [ExoBitsNFT.com](https://exobitsnft.com/). This project accompanies the medium article ["How To Build An NFT Website"](#article)
 
-Contribution: 2022-01-23 20:00
+![ReExoBits ScreenShot](http://greenzeta.com/wp-content/uploads/2021/11/reexobits_preview.png)
 
-Contribution: 2022-01-23 20:01
+## Table of contents
+- [The Article](#article)
+- [Setup](#setup)
+- [Development](#development)
+- [Deployment](#deployment)
+- [React](#react)
 
-Contribution: 2022-01-23 20:02
+## Article
+This project accompanies ["How To Build An NFT Website"](https://medium.com/@greenzeta/how-to-build-an-nft-website-b66431560fff) on Medium. The article explains everything you need to get started building an NFT website. Including: Contract deployment and interaction with a live contract using [Web3.js](https://github.com/ChainSafe/web3.js). Though this project stands by itself, it is recommended that you follow the full tutorial for a complete understanding.
 
-Contribution: 2022-01-24 20:00
+![Article Header](http://greenzeta.com/wp-content/uploads/2021/11/article_header.png)
 
-Contribution: 2022-01-24 20:01
+## Setup
+Clone this repo and enter the project directory:
 
-Contribution: 2022-01-24 20:02
+```sh
+$ cd nft-minting-website-example
+```
+Install dependencies:
+```sh
+$ npm install
+```
 
-Contribution: 2022-01-26 20:00
-
-Contribution: 2022-01-26 20:01
+## Development
+Run the local webpack-dev-server with livereload and autocompile on [http://localhost:3000/](http://localhost:3000/)
+```sh
+$ npm start
+```
+## Deployment
+Build the current application
+```sh
+$ npm run build
+```
 
